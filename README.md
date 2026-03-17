@@ -63,7 +63,6 @@ DocuMind/
 ├─ .gitignore
 └─ appsettings.Development.json # Placeholder config
 
-
 ---
 
 ## ⚡ Setup Instructions (Local / Portfolio Mode)
