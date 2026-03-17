@@ -1,0 +1,11 @@
+# Build output
+**/bin/
+**/obj/
+
+# Development secrets — NEVER commit real connection strings
+appsettings.Development.json
+
+# Rider / VS
+.idea/
+.vs/
+*.user
