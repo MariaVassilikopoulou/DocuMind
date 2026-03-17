@@ -49,16 +49,21 @@ This project focuses on **prompt engineering**, AI-assisted retrieval, and clean
     - Demonstrates practical use of prompt templates with AI for structured QA.
 
 ---
-## 📂 Repository Structure
+## 📂 Project Structure
 DocuMind/
+
 ├─ backend/
-│ ├─ src/
-│ │ ├─ DocuMind.Api/ # ASP.NET API project
+│ 
+├─ src/
+│ 
+│ ├─ DocuMind.Api/ # ASP.NET API project
 │ │ ├─ DocuMind.Application/ # Use cases, interfaces
 │ │ ├─ DocuMind.Infrastructure/ # Services, DI, Azure clients
 │ │ └─ DocuMind.Domain/ # Entities, DTOs
 ├─ frontend/
+
 │ └─ documind-ui/ # React + TypeScript frontend
+
 ├─ README.md
 ├─ .gitignore
 └─ appsettings.Development.json # Placeholder config
