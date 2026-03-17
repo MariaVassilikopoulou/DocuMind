@@ -1,7 +1,5 @@
 # DocuMind
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Ready-blue)](https://github.com/YourUsername/DocuMind)
-
 **DocuMind** is a Full-Stack web application demonstrating **document understanding with AI** using a **RAG (Retrieval-Augmented Generation) pattern**. Users can upload documents (PDF or text) and ask questions about their content. The system generates embeddings for semantic search and returns relevant information.
 
 This project focuses on **prompt engineering**, AI-assisted retrieval, and clean Full-Stack design.
@@ -51,5 +49,38 @@ This project focuses on **prompt engineering**, AI-assisted retrieval, and clean
     - Demonstrates practical use of prompt templates with AI for structured QA.
 
 ---
-
 ## 📂 Repository Structure
+DocuMind/
+├─ backend/
+│ ├─ src/
+│ │ ├─ DocuMind.Api/ # ASP.NET API project
+│ │ ├─ DocuMind.Application/ # Use cases, interfaces
+│ │ ├─ DocuMind.Infrastructure/ # Services, DI, Azure clients
+│ │ └─ DocuMind.Domain/ # Entities, DTOs
+├─ frontend/
+│ └─ documind-ui/ # React + TypeScript frontend
+├─ README.md
+├─ .gitignore
+└─ appsettings.Development.json # Placeholder config
+
+
+---
+
+## ⚡ Setup Instructions (Local / Portfolio Mode)
+
+1. Clone the repo:
+```bash
+git clone https://github.com/YourUsername/DocuMind.git
+cd DocuMind/backend/src/DocuMind.Api
+Set environment to development:
+
+FOR THE BACKEND USE THAT IN THE TERMINAL
+cd ./src/DocuMind.Api
+$Env:ASPNETCORE_ENVIRONMENT="Development"
+dotnet restore
+dotnet run
+
+FOR THE FRONTEND USE THAT IN THE TERMINAL
+cd ./frontend
+npm install
+npm start
