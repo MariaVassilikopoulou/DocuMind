@@ -50,23 +50,10 @@ This project focuses on **prompt engineering**, AI-assisted retrieval, and clean
 
 ---
 ## 📂 Project Structure
-DocuMind/
+The project follows a **Clean Architecture approach**, separating concerns between API, application logic, infrastructure, and domain layers:
 
-├─ backend/
-│ 
-├─ src/
-│ 
-│ ├─ DocuMind.Api/ # ASP.NET API project
-│ │ ├─ DocuMind.Application/ # Use cases, interfaces
-│ │ ├─ DocuMind.Infrastructure/ # Services, DI, Azure clients
-│ │ └─ DocuMind.Domain/ # Entities, DTOs
-├─ frontend/
+<img width="247" height="189" alt="image" src="https://github.com/user-attachments/assets/1af577e6-04c6-4073-b4f0-aa1dcb79835a" />
 
-│ └─ documind-ui/ # React + TypeScript frontend
-
-├─ README.md
-├─ .gitignore
-└─ appsettings.Development.json # Placeholder config
 
 ---
 
