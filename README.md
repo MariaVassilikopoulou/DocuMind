@@ -39,7 +39,7 @@ This project focuses on **prompt engineering**, AI-assisted retrieval, and clean
 2. **Question Flow**
     - User asks a question.
     - The system embeds the question (stub in portfolio).
-    - Retrieves top-matching chunks using **cosine similarity**.
+    - Retrieves top-matching chunks using **cosine similarity**( When a user asks something, I compare it with the document content and pick the parts that are most similar, so the system answers based on the right context ).
     - Returns a summary answer (stubbed or real OpenAI chat service later).
 
 3. **Prompt Engineering**
